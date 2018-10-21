@@ -1,0 +1,46 @@
+h1:hover {
+  cursor:inherit;
+}
+
+div {
+  /* border: 1px dashed white; */
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+.ikira-home-root {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 100%;
+  /* margin: 5px;
+  padding: 5px; */
+}
+
+.padding {
+  height: 100%;
+  width: 100%;
+  /* margin: 5px;
+  padding: 5px; */
+}
+
+.link {
+  margin: 5px;
+  padding: 5px;
+  background-image: -webkit-linear-gradient(top, rgb(105, 186, 201) 0%, rgb(27, 145, 167) 100%);
+}
+
+.clickable {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  /* background-color: grey; */
+  cursor:pointer;
+}
+
+.clickable:hover {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  background-color: grey;
+}

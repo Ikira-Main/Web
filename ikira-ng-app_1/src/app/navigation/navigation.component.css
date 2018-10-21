@@ -1,0 +1,38 @@
+h2:hover {
+  cursor:inherit;
+}
+
+div {
+  /* border: 1px dashed white; */
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+.navigation-root {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(6, 16.5%);
+  grid-template-rows: 10% 80% 10%;
+}
+
+.link {
+  margin: 5px;
+  padding: 5px;
+  background-image: -webkit-linear-gradient(top, rgb(105, 186, 201) 0%, rgb(27, 145, 167) 100%);
+}
+
+.clickable {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  /* background-color: grey; */
+  cursor:pointer;
+}
+
+.clickable:hover {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  background-color: grey;
+}

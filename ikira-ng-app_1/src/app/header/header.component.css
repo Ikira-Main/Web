@@ -1,0 +1,31 @@
+h2:hover {
+  cursor:inherit;
+}
+
+div {
+  /* border: 1px dashed white; */
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+  border: 1px dashed white;
+}
+
+.header-root {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 80% 20%;
+}
+
+.navigation {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  /* background-image: -webkit-linear-gradient(top, rgb(105, 186, 201) 0%, rgb(27, 145, 167) 100%); */
+}
+
+.ikira-home {
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  /* background-image: -webkit-linear-gradient(top, rgb(105, 186, 201) 0%, rgb(27, 145, 167) 100%); */
+}
